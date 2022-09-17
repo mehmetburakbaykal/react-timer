@@ -12,7 +12,11 @@ function App() {
     }, 1000);
   }, [time]);
 
-  return <div>{time}</div>;
+  return (
+    <div>
+      <h1>{time}</h1>
+    </div>
+  );
 }
 
 export default App;
